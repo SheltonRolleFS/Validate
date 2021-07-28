@@ -1,0 +1,51 @@
+<div id="signup">
+
+	<form action="/register" method="POST">
+
+	<form action="/register" method="POST">
+    
+        <input type="text" name="firstname" placeholder="First Name">
+        <input type="text" name="lastname" placeholder="Last Name">
+        <input type="text" name="address" placeholder="Address">
+        <input type="text" name="city" placeholder="City">
+        <input type="text" name="state" placeholder="State">
+        <input type="text" name="zip" placeholder="Zip Code">
+        
+        <div class="age">
+            <label for="age">Select your age:</label>
+            <select name="age" id="age">
+                <option value="15">15</option>
+                <option value="15">16</option>
+                <option value="15">17</option>
+                <option value="15">18</option>
+                <option value="15">19</option>
+                <option value="15">20</option>
+            </select>
+        </div>
+        
+        <div class="gender">
+            <p>Select your gender</p>
+            <input type="radio" name="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="female" id="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div class="bio">
+            <label for="bio">Tell us about yourself!</label>
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Enter bio here"></textarea>
+        </div>
+
+        <div class="consent">
+            <p>By checking the following box, you consent to out Terms & Conditions</p>
+            <input type="checkbox" name="consent" id="consent">
+            <label for="consent">I Accept.</label>
+        </div>
+        
+        <input type="submit">
+
+    </form>
+	
+</form>
+
+</div>
